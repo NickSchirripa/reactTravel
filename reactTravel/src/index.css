@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  color: white;
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 55px;
+
+}
+
+header  > h1 {
+  font-size: 1rem;
+}
+
+.logo{
+  width: 25px;
+  font-weight: 500;
+  font-family: Inter;
+}
