@@ -1,25 +1,93 @@
-body{
+html, body {
   margin: 0;
-  padding: 0;
 }
 
-header{
-  color: white;
-  background-color: #F55A5A;
+body {
+  font-family: Inter;
+}
+
+.container {
+  margin: 45px 40px;
+}
+
+header {
+  background: #F55A5A;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  color: white;
   height: 55px;
-
 }
 
-header  > h1 {
-  font-size: 1rem;
+header > img {
+  width: 24px;
+  margin-right: 7px;
 }
 
-.logo{
-  width: 25px;
+header > h1 {
+  font-size: 0.9rem;
   font-weight: 500;
-  font-family: Inter;
+}
+
+.card {
+  display: flex;
+}
+
+.card .marker {
+  width: 7px;
+  margin-right: 4px;
+}
+
+article.card .mainImgContainer {
+  width: 125px;
+  height: 165px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+}
+
+.card .mainImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cardContent span.country {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-right: 12px;
+}
+
+.cardContent a {
+  color: #2B283A;
+  font-size: 0.7rem;
+  width: 300px;
+  max-width: 400px;
+}
+
+.cardContent a:visited {
+  color: #918E9B;
+}
+
+.cardContent h2{
+  margin-top: 7px;
+  margin-bottom: 17px;
+}
+
+.cardContent p.trip-dates {
+  font-weight: bold;
+}
+
+.cardContent p.entryText {
+  line-height: 1.5;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;  
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.countryPin{
+  display: flex;
 }
