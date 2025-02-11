@@ -36,6 +36,7 @@ header > h1 {
 .card .marker {
   width: 7px;
   margin-right: 4px;
+  margin-top: 4px;
 }
 
 article.card .mainImgContainer {
@@ -90,4 +91,7 @@ article.card .mainImgContainer {
 
 .countryPin{
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
 }
